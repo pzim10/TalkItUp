@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		280E5F171BA4B903000B5243 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280E5F161BA4B903000B5243 /* AppDelegate.swift */; };
+		280E5F191BA4B903000B5243 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280E5F181BA4B903000B5243 /* ContactsViewController.swift */; };
+		280E5F1C1BA4B903000B5243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280E5F1A1BA4B903000B5243 /* Main.storyboard */; };
+		280E5F1E1BA4B903000B5243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280E5F1D1BA4B903000B5243 /* Assets.xcassets */; };
+		280E5F211BA4B903000B5243 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280E5F1F1BA4B903000B5243 /* LaunchScreen.storyboard */; };
+		280E5F2C1BA4B903000B5243 /* TalkItUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280E5F2B1BA4B903000B5243 /* TalkItUpTests.swift */; };
+		280E5F371BA4B903000B5243 /* TalkItUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280E5F361BA4B903000B5243 /* TalkItUpUITests.swift */; };
+		280E5F451BB07BA1000B5243 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280E5F441BB07BA1000B5243 /* MessageUI.framework */; };
+		281C98611BBF0B4000E94806 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281C98601BBF0B4000E94806 /* MainScreen.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		280E5F281BA4B903000B5243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 280E5F0B1BA4B903000B5243 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 280E5F121BA4B903000B5243;
+			remoteInfo = TalkItUp;
+		};
+		280E5F331BA4B903000B5243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 280E5F0B1BA4B903000B5243 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 280E5F121BA4B903000B5243;
+			remoteInfo = TalkItUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		280E5F131BA4B903000B5243 /* TalkItUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkItUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		280E5F161BA4B903000B5243 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		280E5F181BA4B903000B5243 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		280E5F1B1BA4B903000B5243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		280E5F1D1BA4B903000B5243 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		280E5F201BA4B903000B5243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		280E5F221BA4B903000B5243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280E5F271BA4B903000B5243 /* TalkItUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkItUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		280E5F2B1BA4B903000B5243 /* TalkItUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkItUpTests.swift; sourceTree = "<group>"; };
+		280E5F2D1BA4B903000B5243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280E5F321BA4B903000B5243 /* TalkItUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkItUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		280E5F361BA4B903000B5243 /* TalkItUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkItUpUITests.swift; sourceTree = "<group>"; };
+		280E5F381BA4B903000B5243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280E5F441BB07BA1000B5243 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		281C98601BBF0B4000E94806 /* MainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		280E5F101BA4B903000B5243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280E5F451BB07BA1000B5243 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280E5F241BA4B903000B5243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280E5F2F1BA4B903000B5243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		280E5F0A1BA4B903000B5243 = {
+			isa = PBXGroup;
+			children = (
+				280E5F441BB07BA1000B5243 /* MessageUI.framework */,
+				280E5F151BA4B903000B5243 /* TalkItUp */,
+				280E5F2A1BA4B903000B5243 /* TalkItUpTests */,
+				280E5F351BA4B903000B5243 /* TalkItUpUITests */,
+				280E5F141BA4B903000B5243 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		280E5F141BA4B903000B5243 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				280E5F131BA4B903000B5243 /* TalkItUp.app */,
+				280E5F271BA4B903000B5243 /* TalkItUpTests.xctest */,
+				280E5F321BA4B903000B5243 /* TalkItUpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		280E5F151BA4B903000B5243 /* TalkItUp */ = {
+			isa = PBXGroup;
+			children = (
+				280E5F161BA4B903000B5243 /* AppDelegate.swift */,
+				280E5F181BA4B903000B5243 /* ContactsViewController.swift */,
+				281C98601BBF0B4000E94806 /* MainScreen.swift */,
+				280E5F1A1BA4B903000B5243 /* Main.storyboard */,
+				280E5F1D1BA4B903000B5243 /* Assets.xcassets */,
+				280E5F1F1BA4B903000B5243 /* LaunchScreen.storyboard */,
+				280E5F221BA4B903000B5243 /* Info.plist */,
+			);
+			path = TalkItUp;
+			sourceTree = "<group>";
+		};
+		280E5F2A1BA4B903000B5243 /* TalkItUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				280E5F2B1BA4B903000B5243 /* TalkItUpTests.swift */,
+				280E5F2D1BA4B903000B5243 /* Info.plist */,
+			);
+			path = TalkItUpTests;
+			sourceTree = "<group>";
+		};
+		280E5F351BA4B903000B5243 /* TalkItUpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				280E5F361BA4B903000B5243 /* TalkItUpUITests.swift */,
+				280E5F381BA4B903000B5243 /* Info.plist */,
+			);
+			path = TalkItUpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		280E5F121BA4B903000B5243 /* TalkItUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280E5F3B1BA4B903000B5243 /* Build configuration list for PBXNativeTarget "TalkItUp" */;
+			buildPhases = (
+				280E5F0F1BA4B903000B5243 /* Sources */,
+				280E5F101BA4B903000B5243 /* Frameworks */,
+				280E5F111BA4B903000B5243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalkItUp;
+			productName = TalkItUp;
+			productReference = 280E5F131BA4B903000B5243 /* TalkItUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		280E5F261BA4B903000B5243 /* TalkItUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280E5F3E1BA4B903000B5243 /* Build configuration list for PBXNativeTarget "TalkItUpTests" */;
+			buildPhases = (
+				280E5F231BA4B903000B5243 /* Sources */,
+				280E5F241BA4B903000B5243 /* Frameworks */,
+				280E5F251BA4B903000B5243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				280E5F291BA4B903000B5243 /* PBXTargetDependency */,
+			);
+			name = TalkItUpTests;
+			productName = TalkItUpTests;
+			productReference = 280E5F271BA4B903000B5243 /* TalkItUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		280E5F311BA4B903000B5243 /* TalkItUpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280E5F411BA4B903000B5243 /* Build configuration list for PBXNativeTarget "TalkItUpUITests" */;
+			buildPhases = (
+				280E5F2E1BA4B903000B5243 /* Sources */,
+				280E5F2F1BA4B903000B5243 /* Frameworks */,
+				280E5F301BA4B903000B5243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				280E5F341BA4B903000B5243 /* PBXTargetDependency */,
+			);
+			name = TalkItUpUITests;
+			productName = TalkItUpUITests;
+			productReference = 280E5F321BA4B903000B5243 /* TalkItUpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		280E5F0B1BA4B903000B5243 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Peter Zimmerman";
+				TargetAttributes = {
+					280E5F121BA4B903000B5243 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = A4WHWDG5S8;
+					};
+					280E5F261BA4B903000B5243 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 280E5F121BA4B903000B5243;
+					};
+					280E5F311BA4B903000B5243 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 280E5F121BA4B903000B5243;
+					};
+				};
+			};
+			buildConfigurationList = 280E5F0E1BA4B903000B5243 /* Build configuration list for PBXProject "TalkItUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 280E5F0A1BA4B903000B5243;
+			productRefGroup = 280E5F141BA4B903000B5243 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				280E5F121BA4B903000B5243 /* TalkItUp */,
+				280E5F261BA4B903000B5243 /* TalkItUpTests */,
+				280E5F311BA4B903000B5243 /* TalkItUpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		280E5F111BA4B903000B5243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280E5F211BA4B903000B5243 /* LaunchScreen.storyboard in Resources */,
+				280E5F1E1BA4B903000B5243 /* Assets.xcassets in Resources */,
+				280E5F1C1BA4B903000B5243 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280E5F251BA4B903000B5243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280E5F301BA4B903000B5243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		280E5F0F1BA4B903000B5243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281C98611BBF0B4000E94806 /* MainScreen.swift in Sources */,
+				280E5F191BA4B903000B5243 /* ContactsViewController.swift in Sources */,
+				280E5F171BA4B903000B5243 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280E5F231BA4B903000B5243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280E5F2C1BA4B903000B5243 /* TalkItUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280E5F2E1BA4B903000B5243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280E5F371BA4B903000B5243 /* TalkItUpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		280E5F291BA4B903000B5243 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 280E5F121BA4B903000B5243 /* TalkItUp */;
+			targetProxy = 280E5F281BA4B903000B5243 /* PBXContainerItemProxy */;
+		};
+		280E5F341BA4B903000B5243 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 280E5F121BA4B903000B5243 /* TalkItUp */;
+			targetProxy = 280E5F331BA4B903000B5243 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		280E5F1A1BA4B903000B5243 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280E5F1B1BA4B903000B5243 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		280E5F1F1BA4B903000B5243 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280E5F201BA4B903000B5243 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		280E5F391BA4B903000B5243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		280E5F3A1BA4B903000B5243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		280E5F3C1BA4B903000B5243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TalkItUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devMounta.in.TalkItUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		280E5F3D1BA4B903000B5243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TalkItUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devMounta.in.TalkItUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		280E5F3F1BA4B903000B5243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TalkItUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devMounta.in.TalkItUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkItUp.app/TalkItUp";
+			};
+			name = Debug;
+		};
+		280E5F401BA4B903000B5243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TalkItUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devMounta.in.TalkItUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkItUp.app/TalkItUp";
+			};
+			name = Release;
+		};
+		280E5F421BA4B903000B5243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TalkItUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devMounta.in.TalkItUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TalkItUp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		280E5F431BA4B903000B5243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TalkItUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devMounta.in.TalkItUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TalkItUp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		280E5F0E1BA4B903000B5243 /* Build configuration list for PBXProject "TalkItUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280E5F391BA4B903000B5243 /* Debug */,
+				280E5F3A1BA4B903000B5243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280E5F3B1BA4B903000B5243 /* Build configuration list for PBXNativeTarget "TalkItUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280E5F3C1BA4B903000B5243 /* Debug */,
+				280E5F3D1BA4B903000B5243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280E5F3E1BA4B903000B5243 /* Build configuration list for PBXNativeTarget "TalkItUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280E5F3F1BA4B903000B5243 /* Debug */,
+				280E5F401BA4B903000B5243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280E5F411BA4B903000B5243 /* Build configuration list for PBXNativeTarget "TalkItUpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280E5F421BA4B903000B5243 /* Debug */,
+				280E5F431BA4B903000B5243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 280E5F0B1BA4B903000B5243 /* Project object */;
+}
